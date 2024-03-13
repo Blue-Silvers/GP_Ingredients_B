@@ -16,19 +16,19 @@ public class B_SecretLight : MonoBehaviour
 
     void Update()
     {
-        if (fire1.activeSelf == true)
+        if (fire1.transform.GetChild(0).gameObject.activeSelf == true)
         {
             torchOnFire1 = true;
         }
-        if (fire2.activeSelf == true)
+        if (fire2.transform.GetChild(0).gameObject.activeSelf == true)
         {
             torchOnFire2 = true;
         }
-        if (fire3.activeSelf == true)
+        if (fire3.transform.GetChild(0).gameObject.activeSelf == true)
         {
             torchOnFire3 = true;
         }
-        if (fire4.activeSelf == true)
+        if (fire4.transform.GetChild(0).gameObject.activeSelf == true)
         {
             torchOnFire4 = true;
         }
