@@ -12,9 +12,11 @@ GameObject:
   - component: {fileID: 1331175351029774867}
   - component: {fileID: 1331175351030905043}
   - component: {fileID: 1331175351028639260}
+  - component: {fileID: 6887907418438697164}
+  - component: {fileID: 1056332809485199358}
   m_Layer: 0
   m_Name: B_Parchemin
-  m_TagString: Untagged
+  m_TagString: Interactive
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -108,6 +110,44 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: ac8910006b2a62947a9342d2b6ddfa2a, type: 3}
+--- !u!114 &6887907418438697164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331175351028639251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b38d0eac07a3e4468b64a7162f365ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionType: 2
+  onlyOnce: 0
+  requiredItems: []
+  waitForObject: 0
+  canvasImage: {fileID: 0}
+--- !u!135 &1056332809485199358
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331175351028639251}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1
+  m_Center: {x: -0.0024640334, y: 0.024892937, z: 0.039483678}
 --- !u!1 &5037408920158315923
 GameObject:
   m_ObjectHideFlags: 0
@@ -378,9 +418,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Je t'ai fait conna\xEEtre mon p\xE9ch\xE9, je n'ai pas cach\xE9 mon iniquit\xE9;
-    J'ai dit: J'avouerai mes transgressions \xE0 l'\xC9ternel! Et tu as effac\xE9
-    la peine de mon p\xE9ch\xE9. \n"
+  m_text: 'I made my sin known to you, I did not hide my iniquity; I said, I will
+    confess my transgressions to the LORD! And thou hast blotted out the penalty
+    of my sin. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dbcb8bd266d82f340b4957baa8ffada9, type: 2}
   m_sharedMaterial: {fileID: -7622204366690412518, guid: dbcb8bd266d82f340b4957baa8ffada9, type: 2}
