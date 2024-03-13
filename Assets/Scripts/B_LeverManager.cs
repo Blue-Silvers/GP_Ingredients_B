@@ -25,16 +25,8 @@ public class B_LeverManager : MonoBehaviour
         {
             if (lever2.GetBool("On") == true && lever3.GetBool("On") == true && lever4.GetBool("On") == true && lever5.GetBool("On") == true && lever7.GetBool("On") == true)
             {
-                coffin.SetBool("Open", true);
+                coffin.SetBool("GoodCode", true);
             }
-            else
-            {
-                coffin.SetBool("Open", false);
-            }
-        }
-        else
-        {
-            coffin.SetBool("Open", false);
         }
 
         if (lever3.GetBool("On") == false && lever2.GetBool("On") == false && lever5.GetBool("On") == false)
