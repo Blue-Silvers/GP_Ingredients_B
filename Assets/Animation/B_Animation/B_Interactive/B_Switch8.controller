@@ -58,7 +58,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Switch8
+  m_Name: B_Switch8
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: On
