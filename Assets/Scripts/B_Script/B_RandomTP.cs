@@ -12,12 +12,13 @@ public class B_RandomTP : MonoBehaviour
     [Header("The Exit")]
     [SerializeField] private GameObject exitTp;
     [SerializeField] private bool isExit;
+    [SerializeField] int sceneToLoadNbInBuildIndex = 1;
 
     private void OnTriggerEnter(Collider other)
     {
         if (isExit)
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(sceneToLoadNbInBuildIndex);
             //other.gameObject.transform.position = exitTp.transform.position;
         }
         else if(tpSpot.Length > 0)
