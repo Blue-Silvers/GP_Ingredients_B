@@ -17,7 +17,8 @@ public class B_RandomTP : MonoBehaviour
     {
         if (isExit)
         {
-            other.gameObject.transform.position = exitTp.transform.position;
+            SceneManager.LoadScene(1);
+            //other.gameObject.transform.position = exitTp.transform.position;
         }
         else if(tpSpot.Length > 0)
         {
