@@ -12275,6 +12275,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6887907418438697164, guid: 6939562eb898d4348a8792a219b30bd4, type: 3}
+      propertyPath: canvasImage
+      value: 
+      objectReference: {fileID: 1389368846129571411}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17397,9 +17401,19 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bdfb2d6925a25f419b0498d32c1353a, type: 3}
+--- !u!1 &1389368846129571411 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6162462980266816220, guid: 8bdfb2d6925a25f419b0498d32c1353a, type: 3}
+  m_PrefabInstance: {fileID: 5101858148432499855}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &6101419515223920018 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1324595180305553693, guid: 8bdfb2d6925a25f419b0498d32c1353a, type: 3}
+  m_PrefabInstance: {fileID: 5101858148432499855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6580180822321199655 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2133597283211194024, guid: 8bdfb2d6925a25f419b0498d32c1353a, type: 3}
   m_PrefabInstance: {fileID: 5101858148432499855}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5114747980767069084
@@ -18025,6 +18039,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 100218077902662713}
     m_Modifications:
+    - target: {fileID: 2046203537822438915, guid: 86c583bbd33840d4cbdb80e63aca0915, type: 3}
+      propertyPath: canvasImage
+      value: 
+      objectReference: {fileID: 6580180822321199655}
     - target: {fileID: 2313838922558772729, guid: 86c583bbd33840d4cbdb80e63aca0915, type: 3}
       propertyPath: m_Name
       value: B_Book
