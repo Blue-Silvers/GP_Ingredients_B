@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu.unity
     guid: 1cdac74563178404f90bfc692ebcacb8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Escape The Dungeon.unity
     guid: 4eeb9ddab3a29844bb7f984ac3ed7423
+  - enabled: 1
+    path: Assets/Scenes/B_church ofJesus's Blood.unity
+    guid: 961b197b41dc6394d970caf601ae79bd
   m_configObjects: {}
